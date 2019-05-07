@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { OktaCallbackComponent } from '@okta/okta-angular';
+import { HomeComponent } from './home/home.component';
 import { CarListComponent } from './car-list/car-list.component';
 import { CarEditComponent } from './car-edit/car-edit.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/car-list', pathMatch: 'full' },
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  {
+    path: 'home',
+    component: HomeComponent
+  },
   {
     path: 'car-list',
     component: CarListComponent
@@ -16,6 +22,10 @@ const routes: Routes = [
   {
     path: 'car-edit/:id',
     component: CarEditComponent
+  },
+  {
+    path: 'implicit/callback',
+    component: OktaCallbackComponent
   }
 ];
 

@@ -1,12 +1,18 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { OktaAuthModule } from '@okta/okta-angular';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        OktaAuthModule.initAuth({
+          issuer: 'https://not-real.okta.com',
+          clientId: 'fake-client-id',
+          redirectUri: 'http://localhost:4200'
+        })
       ],
       declarations: [
         AppComponent
