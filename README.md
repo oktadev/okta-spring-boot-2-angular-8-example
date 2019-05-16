@@ -2,7 +2,7 @@
  
 This example app shows how to build a basic CRUD app with Spring Boot 2.2, Spring Data, Angular 8, and Angular Material.
 
-<!--Please read [Build a Basic CRUD App with Angular 8 and Spring Boot 2.1](https://developer.okta.com/blog/2018/08/22/basic-crud-angular-7-and-spring-boot-2) to see how this app was created.-->
+Please read [Angular 8 + Spring Boot 2.2: Build a CRUD App Today!](https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2) to see how this app was created.
 
 **Prerequisites:** [Java 11](https://sdkman.io/sdks#java) and [Node.js](https://nodejs.org/). 
 
@@ -77,7 +77,7 @@ This example uses the following open source libraries from Okta:
 
 ## Help
 
-Please post any questions on the [Okta Developer Forums](https://devforum.okta.com/). Our whole team monitors this channel and will see your questions. You can also enter them as issues on this project or ask them on Stack Overflow and add the `okta` tag.
+Please post any questions as commnets on the [blog post](https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2) or ask them on the [Okta Developer Forums](https://devforum.okta.com/). Our whole team monitors this channel and will see your questions. You can also enter them as issues on this project or ask them on Stack Overflow and add the `okta` tag.
 
 ## License
 
