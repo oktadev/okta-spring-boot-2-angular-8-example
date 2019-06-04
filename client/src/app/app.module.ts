@@ -9,7 +9,6 @@ import { CarListComponent } from './car-list/car-list.component';
 import { MatButtonModule, MatCardModule, MatInputModule, MatListModule, MatToolbarModule } from '@angular/material';
 import { CarEditComponent } from './car-edit/car-edit.component';
 import { FormsModule } from '@angular/forms';
-import { AuthRoutingModule } from './auth-routing.module';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { AuthRoutingModule } from './auth-routing.module';
     MatInputModule,
     MatListModule,
     MatToolbarModule,
-    FormsModule,
-    AuthRoutingModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
