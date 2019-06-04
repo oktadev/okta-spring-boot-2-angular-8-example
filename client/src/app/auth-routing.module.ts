@@ -35,8 +35,8 @@ const routes: Routes = [
     HttpClientModule,
     OktaAuthModule,
     RouterModule.forRoot(routes),
-    MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [
     { provide: OKTA_CONFIG, useValue: oktaConfig },
