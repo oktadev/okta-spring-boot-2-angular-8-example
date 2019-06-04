@@ -1,21 +1,24 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { CarListComponent } from './car-list/car-list.component';
 import { CarEditComponent } from './car-edit/car-edit.component';
+import { OktaAuthGuard } from '@okta/okta-angular';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/car-list', pathMatch: 'full' },
   {
     path: 'car-list',
-    component: CarListComponent
+    component: CarListComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'car-add',
-    component: CarEditComponent
+    component: CarEditComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'car-edit/:id',
-    component: CarEditComponent
+    component: CarEditComponent,
+    canActivate: [OktaAuthGuard]
   }
 ];
 
@@ -23,4 +26,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
