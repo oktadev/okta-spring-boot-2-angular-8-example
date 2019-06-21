@@ -4,7 +4,7 @@ The brackets at the end of each step indicate the alias's or IntelliJ Live Templ
 
 === Spring Boot API
 
-. start.spring.io: JPA, H2, Rest Repositories, Lombok, Oka, and Web [`boot-start`]
+. start.spring.io: JPA, H2, Rest Repositories, Lombok, Okta, and Web [`boot-start`]
 
   http https://start.spring.io/starter.zip dependencies==h2,data-jpa,data-rest,lombok,okta,web javaVersion==11 bootVersion==2.2.0.M4 -d
 
@@ -105,7 +105,7 @@ The brackets at the end of each step indicate the alias's or IntelliJ Live Templ
     height: 100vh;
   }
 
-. Disable Ivy in `tsconfig.app.json` because [Ivy doesn't have CommonJS/UMD support](https://github.com/angular/angular/issues/29564)
+. Disable Ivy in `tsconfig.app.json` because https://github.com/angular/angular/issues/29564[Ivy doesn't have CommonJS/UMD support]
 
 . Show app and rejoice 🎉
 
