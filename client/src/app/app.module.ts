@@ -22,6 +22,7 @@ import { AuthRoutingModule } from './auth-routing.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
     MatInputModule,

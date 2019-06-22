@@ -1,4 +1,4 @@
-package com.okta.developer.demo;
+package com.example.demo;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
