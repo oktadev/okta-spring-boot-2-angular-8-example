@@ -1,4 +1,4 @@
-package com.okta.developer.demo;
+package com.example.demo;
 
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
