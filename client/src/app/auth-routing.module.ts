@@ -9,9 +9,9 @@ import { AuthInterceptor } from './shared/okta/auth.interceptor';
 import { MatButtonModule, MatCardModule } from '@angular/material';
 
 const oktaConfig = {
-  issuer: 'https://dev-133320.okta.com/oauth2/default',
+  issuer: 'https://dev-964850.okta.com/oauth2/default',
   redirectUri: window.location.origin + '/implicit/callback',
-  clientId: '0oaogvf2chxVK1IOK356'
+  clientId: '0oa1qtnf39gwx7iG9357'
 };
 
 const routes: Routes = [
